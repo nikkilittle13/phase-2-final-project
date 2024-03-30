@@ -1,0 +1,16 @@
+{
+  "artists": [
+    {
+      "id": 1,
+      "name": "Taylor Swift",
+      "genre": "Pop",
+      "votes": 1500
+    },
+    {
+      "id": 2,
+      "name": "Kacey Musgraves",
+      "genre": "Country",
+      "votes": 1250
+    }
+  ]
+}
