@@ -11,6 +11,117 @@
       "name": "Kacey Musgraves",
       "genre": "Country",
       "votes": 1250
+    },
+    {
+      "id": 3,
+      "name": "Ariana Grande",
+      "genre": "Pop",
+      "votes": 940
+    },
+    {
+      "id": 4,
+      "name": "Justin Timberlake",
+      "genre": "Pop",
+      "votes": 895
+    },
+    {
+      "id": 5,
+      "name": "Morgan Wallen",
+      "genre": "Country",
+      "votes": 700
+    },
+    {
+      "id": 6,
+      "name": "Zach Bryan",
+      "genre": "Country",
+      "votes": 570
+    },
+    {
+      "id": 7,
+      "name": "SZA",
+      "genre": "R&B",
+      "votes": 500
+    },
+    {
+      "id": 8,
+      "name": "Drake",
+      "genre": "Rap",
+      "votes": 350
+    },
+    {
+      "id": 9,
+      "name": "Luke Combs",
+      "genre": "Country",
+      "votes": 85
+    },
+    {
+      "id": 10,
+      "name": "Cardi B",
+      "genre": "Rap",
+      "votes": 50
+    }
+  ],
+  
+  "albums": [
+    {
+      "id": 1,
+      "title": "Eternal Sunshine",
+      "artist": "Ariana Grande",
+      "votes": 3000
+    },
+    {
+      "id": 2,
+      "title": "Deeper Well",
+      "artist": "Kacey Musgraves",
+      "votes": 1500
+    },
+    {
+      "id": 3,
+      "title": "One Thing At A Time",
+      "artist": "Morgan Wallen",
+      "votes": 1120
+    },
+    {
+      "id": 4,
+      "title": "Everything I Thought I Was",
+      "artist": "Justin Timberlake",
+      "votes": 960
+    },
+    {
+      "id": 5,
+      "title": "Stick Season",
+      "artist": "Noah Kahan",
+      "votes": 830
+    },
+    {
+      "id": 6,
+      "title": "SOS",
+      "artist": "SZA",
+      "votes": 800
+    },
+    {
+      "id": 7,
+      "title": "Lover",
+      "artist": "Taylor Swift",
+      "votes": 755
+    },
+    {
+      "id": 8,
+      "title": "Zach Bryan",
+      "artist": "Zach Bryan",
+      "votes": 600
+    },
+    {
+      "id": 9,
+      "title": "1989 (Taylor's Version)",
+      "artist": "Taylor Swift",
+      "votes": 580
+    },
+    {
+      "id": 10,
+      "title": "Vultures 1",
+      "artist": "¥$, Kanye West & Ty Dolla $ign",
+      "votes": 3000
     }
   ]
 }
