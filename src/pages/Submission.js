@@ -4,7 +4,9 @@ import NavBar from "../components/NavBar";
 function Submission() {
   return (
     <div>
-      <NavBar />
+      <header>
+        <NavBar />
+      </header>
       <h1>Submission</h1>
     </div>
   );
