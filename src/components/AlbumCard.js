@@ -19,6 +19,7 @@ return (
           <h1>{album.title}</h1>
           <h4>Artist: {album.artist}</h4>
           <h3>Votes: {album.votes}</h3>
+          <button>Vote Now</button>
         </div>
       )
     })}
