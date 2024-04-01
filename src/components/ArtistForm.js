@@ -6,7 +6,7 @@ function ArtistForm({ onAddArtist }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    const artistDate = {
+    const artistData = {
       name: name,
       genre: genre,
       votes: 0
@@ -16,7 +16,7 @@ function ArtistForm({ onAddArtist }) {
       headers: {
         "Content-Type": "application/json"
       },
-      body: JSON.stringify(artistDate)
+      body: JSON.stringify(artistData)
     })
     .then(res => res.json())
     .then(newArtist => onAddArtist(newArtist))
