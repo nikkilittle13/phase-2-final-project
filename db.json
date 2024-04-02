@@ -59,6 +59,12 @@
       "name": "Cardi B",
       "genre": "Rap",
       "votes": 50
+    },
+    {
+      "id": "8304",
+      "name": "",
+      "genre": "",
+      "votes": 0
     }
   ],
   "albums": [

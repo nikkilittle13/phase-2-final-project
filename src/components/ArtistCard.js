@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import VoteButton from "./VoteButton";
 
 function ArtistCard() {
   const [artists, setArtists] = useState([]);
@@ -6,10 +7,9 @@ function ArtistCard() {
 useEffect(() => {
   fetch("http://localhost:3000/artists")
   .then(res => res.json())
-  .then(data => {
-     setArtists(data);
-   })
+  .then(data => setArtists(data))
 }, [])
+
 
 return (
   <div>
@@ -19,7 +19,7 @@ return (
           <h1>{artist.name}</h1>
           <h4>Genre: {artist.genre}</h4>
           <h3>Votes: {artist.votes}</h3>
-          <button>Vote Now</button>
+          <VoteButton />
         </div>
       )
     })}
