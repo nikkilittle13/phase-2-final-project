@@ -1,23 +1,15 @@
-import React, { useEffect } from "react";
+import React from "react";
 
-function ArtistCard({ artists, setArtists }) {
-
-useEffect(() => {
-  fetch("http://localhost:3000/artists")
-  .then(res => res.json())
-  .then(data => setArtists(data))
-}, [])
-
-
+function ArtistCard({ artists, handleClick }) {
 return (
   <div>
-    {artists.map(artist => {
+    {artists.map((artist, index) => {
       return (
         <div key={artist.id}>
           <h1>{artist.name}</h1>
           <h4>Genre: {artist.genre}</h4>
           <h3>Votes: {artist.votes}</h3>
-          <button>Vote Now</button>
+          <button onClick={() => handleClick(index)}>Vote Now</button>
         </div>
       )
     })}

@@ -1,8 +1,6 @@
-import React, { useEffect} from "react";
+import React from "react";
 
 function AlbumCard({ handleClick, albums }) {
-
-
   return (
     <div>
       {albums.map((album, index) => {

@@ -26,7 +26,6 @@ function Albums() {
     })
       .then((res) => res.json())
       .then((updatedAlbum) => {
-        // Update the albums state with the updated album data
         setAlbums((prevAlbums) => {
           const updatedAlbums = [...prevAlbums];
           updatedAlbums[index] = updatedAlbum;
@@ -36,7 +35,6 @@ function Albums() {
       .catch((error) => console.error("Error updating album:", error));
   }
   
-
   return (
     <div>
       <header>
