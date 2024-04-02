@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import NavBar from "../components/NavBar";
 import ArtistCard from "../components/ArtistCard";
 
 function Artists() {
+  const [artists, setArtists] = useState([]);
 
   return (
     <div>
@@ -10,7 +11,7 @@ function Artists() {
         <NavBar />
       </header>
       <h1>Artists</h1>
-      <ArtistCard />
+      <ArtistCard artists={artists} setArtists={setArtists} />
     </div>
   );
 }

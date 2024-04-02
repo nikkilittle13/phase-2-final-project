@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
-import VoteButton from "./VoteButton";
 
-function AlbumCard() {
-  const [albums, setAlbums] = useState([]);
+function AlbumCard({ albums, setAlbums }) {
+  
 
 useEffect(() => {
   fetch("http://localhost:3000/albums")
@@ -18,7 +17,7 @@ return (
           <h1>{album.title}</h1>
           <h4>Artist: {album.artist}</h4>
           <h3>Votes: {album.votes}</h3>
-          <VoteButton />
+          <button>Vote Now</button>
         </div>
       )
     })}
