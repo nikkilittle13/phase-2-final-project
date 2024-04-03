@@ -1,6 +1,6 @@
 import React from "react";
 
-function ArtistCard({ artists, handleClick }) {
+function ArtistCard({ handleClick, artists }) {
 return (
   <div>
     {artists.map((artist, index) => {
