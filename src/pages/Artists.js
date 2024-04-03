@@ -9,7 +9,7 @@ function Artists({ artists, handleClick }) {
       <header>
         <NavBar />
       </header>
-      <h1 className="header">Artists</h1>
+      <h1 className="header">ARTISTS</h1>
       <ArtistCard artists={artists} handleClick={handleClick} />
     </div>
   );

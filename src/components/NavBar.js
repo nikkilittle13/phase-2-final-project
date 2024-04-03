@@ -8,22 +8,22 @@ function NavBar() {
       <NavLink
       to="/"
       className="nav-link">
-        Home
+        HOME
       </NavLink>
       <NavLink
       to="/artists"
       className="nav-link">
-        Artists
+        ARTISTS
       </NavLink>
       <NavLink
       to="/albums"
       className="nav-link">
-        Albums
+        ALBUMS
       </NavLink>
       <NavLink
       to="/submission"
       className="nav-link">
-        Submission Form
+        SUBMISSION FORM
       </NavLink>
     </nav>
   )

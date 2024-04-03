@@ -9,7 +9,7 @@ function Albums({ albums, handleClick }) {
       <header>
         <NavBar />
       </header>
-      <h1 className="header">Albums</h1>
+      <h1 className="header">ALBUMS</h1>
       <AlbumCard albums={albums} handleClick={handleClick} />
     </div>
   );
