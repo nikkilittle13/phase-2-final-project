@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 import ArtistCard from "../components/ArtistCard";
+import "../index.css";
 
 function Artists({ artists, handleClick }) {
   return (
@@ -8,7 +9,7 @@ function Artists({ artists, handleClick }) {
       <header>
         <NavBar />
       </header>
-      <h1>Artists</h1>
+      <h1 className="header">Artists</h1>
       <ArtistCard artists={artists} handleClick={handleClick} />
     </div>
   );

@@ -36,3 +36,27 @@
   font-size: 25px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.header {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+}
+
+.navbar {
+  text-align: center;
+}
+
+.nav-link {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  background: black;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+.active {
+  color:rgb(53, 132, 250);
+}

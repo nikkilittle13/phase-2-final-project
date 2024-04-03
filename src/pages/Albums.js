@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 import AlbumCard from "../components/AlbumCard";
+import "../index.css";
 
 function Albums({ albums, handleClick }) {
   return (
@@ -8,7 +9,7 @@ function Albums({ albums, handleClick }) {
       <header>
         <NavBar />
       </header>
-      <h1>Albums</h1>
+      <h1 className="header">Albums</h1>
       <AlbumCard albums={albums} handleClick={handleClick} />
     </div>
   );
