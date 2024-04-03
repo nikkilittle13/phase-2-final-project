@@ -4,6 +4,7 @@ import Home from '../pages/Home';
 import Artists from '../pages/Artists';
 import Albums from '../pages/Albums';
 import Submission from '../pages/Submission';
+import NavBar from './NavBar';
 
 function App() {
   const [artists, setArtists] = useState([]);
@@ -77,6 +78,9 @@ function App() {
 
   return (
     <div>
+        <header>
+          <NavBar />
+        </header>
         <Routes>
           <Route exact path="/"
             element={<Home />}
