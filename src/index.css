@@ -10,6 +10,17 @@
   margin: 0 auto;
 }
 
+.submit-button {
+  background-color: black;
+  color: white;
+  font-size: 13px;
+  font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+  padding: 6px 8px;
+  border: none;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
 .container {
   width: 500px;
   margin: 0 auto;
@@ -80,15 +91,11 @@
 }
 
 .input-artist {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .input-album {
-  margin-left: 32px;
-}
-
-.input-album-artist {
-  margin-left: 24px;
+  margin-left: 15px;
 }
 
 .navbar {

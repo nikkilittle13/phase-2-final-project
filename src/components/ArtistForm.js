@@ -47,7 +47,7 @@ function ArtistForm({ onAddArtist }) {
           onChange={e => setGenre(e.target.value)}
         />
       </label>
-      <button type="submit">
+      <button className="submit-button" type="submit">
         Submit
       </button>
     </form>

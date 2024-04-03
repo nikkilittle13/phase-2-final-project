@@ -39,7 +39,7 @@ function AlbumForm({ onAddAlbum }) {
       <label className="label">
         Artist:
         <input
-          className="input-album-artist"
+          className="input-album"
           type="text"
           name="artist"
           placeholder="Enter artist"
@@ -47,7 +47,7 @@ function AlbumForm({ onAddAlbum }) {
           onChange={e => setArtist(e.target.value)}
         />
       </label>
-      <button type="submit">
+      <button className="submit-button" type="submit">
         Submit
       </button>
     </form>
