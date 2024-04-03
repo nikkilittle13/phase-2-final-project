@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../index.css";
 
 function AlbumForm({ onAddAlbum }) {
   const[title, setTitle] = useState("");
@@ -23,21 +24,25 @@ function AlbumForm({ onAddAlbum }) {
   }
 
   return (
-    <form onClick={handleSubmit}>
-      <label>
+    <form className="form" onClick={handleSubmit}>
+      <label className="label">
         Title:
         <input
+          className="input-album"
           type="text"
-          name="name"
+          name="title"
+          placeholder="Enter title"
           value={title}
           onChange={e => setTitle(e.target.value)}
         />
       </label>
-      <label>
+      <label className="label">
         Artist:
         <input
+          className="input-album-artist"
           type="text"
-          name="genre"
+          name="artist"
+          placeholder="Enter artist"
           value={artist}
           onChange={e => setArtist(e.target.value)}
         />

@@ -11,7 +11,9 @@ function Submission({ onAddAlbum, onAddArtist }) {
         <NavBar />
       </header>
       <h1 className="header">SUBMISSION</h1>
+      <h2 className="submit-header">Submit Your Favorite Artist:</h2>
       <ArtistForm onAddArtist={onAddArtist} />
+      <h2 className="submit-header">Submit Your Favorite Album:</h2>
       <AlbumForm onAddAlbum={onAddAlbum} />
     </div>
   );

@@ -60,6 +60,37 @@
   margin-left: 200px;
 }
 
+.submit-header {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+
+.form {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.label {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.input-artist {
+  margin-left: 20px;
+}
+
+.input-album {
+  margin-left: 32px;
+}
+
+.input-album-artist {
+  margin-left: 24px;
+}
+
 .navbar {
   text-align: center;
 }

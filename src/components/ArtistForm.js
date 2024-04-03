@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import '../index.css';
 
 function ArtistForm({ onAddArtist }) {
   const [name, setName] = useState("");
@@ -23,21 +24,25 @@ function ArtistForm({ onAddArtist }) {
   }
 
   return (
-    <form onClick={handleSubmit}>
-      <label>
+    <form className="form" onClick={handleSubmit}>
+      <label className="label">
         Name:
         <input
+          className="input-artist"
           type="text"
           name="name"
+          placeholder="Enter name"
           value={name}
           onChange={e => setName(e.target.value)}
         />
       </label>
-      <label>
+      <label className="label">
         Genre:
         <input
+          className="input-artist"
           type="text"
           name="genre"
+          placeholder="Enter genre"
           value={genre}
           onChange={e => setGenre(e.target.value)}
         />
