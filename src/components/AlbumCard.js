@@ -7,10 +7,10 @@ function AlbumCard({ handleClick, albums }) {
       {albums.map((album, index) => {
         return (
           <div className="container" key={album.id}>
-          <div className="card">
-            <h1>{album.title}</h1>
-            <h4>Artist: {album.artist}</h4>
-            <h3>Votes: {album.votes}</h3>
+          <div>
+            <h1 className="title-artist">{album.title}</h1>
+            <h4 className="artist-genre ">Artist: {album.artist}</h4>
+            <h3 className="votes">Votes: {album.votes}</h3>
             <button className="button" onClick={() => handleClick(index)}>Vote Now</button>
           </div>
           </div>
