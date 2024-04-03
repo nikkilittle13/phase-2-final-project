@@ -7,9 +7,9 @@ A web-based voting app built with React.
 An online platform for users to vote for their current favorite artists and albums. It allows user to see what's trending and add their own favorites to the list.
 
 ## Features
--Browse the lists of artists and albums
--Vote for your current favorite artists and albums
--Add your favorites to the list
+- Browse the lists of artists and albums
+- Vote for your current favorite artists and albums
+- Add your favorites to the list
 
 ## Installation
 
@@ -37,10 +37,10 @@ npm install
 npm start
 ```
 
-## Author
-
-Nicole Little
-
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Author
+
+Nicole Little
