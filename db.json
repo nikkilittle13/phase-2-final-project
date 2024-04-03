@@ -4,13 +4,13 @@
       "id": "1",
       "name": "Taylor Swift",
       "genre": "Pop",
-      "votes": 1510
+      "votes": 1511
     },
     {
       "id": "2",
       "name": "Kacey Musgraves",
       "genre": "Country",
-      "votes": 1252
+      "votes": 1254
     },
     {
       "id": "3",
@@ -22,25 +22,25 @@
       "id": "4",
       "name": "Justin Timberlake",
       "genre": "Pop",
-      "votes": 895
+      "votes": 896
     },
     {
       "id": "5",
       "name": "Morgan Wallen",
       "genre": "Country",
-      "votes": 700
+      "votes": 701
     },
     {
       "id": "6",
       "name": "Zach Bryan",
       "genre": "Country",
-      "votes": 570
+      "votes": 571
     },
     {
       "id": "7",
       "name": "SZA",
       "genre": "R&B",
-      "votes": 500
+      "votes": 501
     },
     {
       "id": "8",
@@ -59,24 +59,6 @@
       "name": "Cardi B",
       "genre": "Rap",
       "votes": 50
-    },
-    {
-      "id": "051b",
-      "name": "",
-      "genre": "",
-      "votes": 0
-    },
-    {
-      "id": "efcc",
-      "name": "",
-      "genre": "",
-      "votes": 0
-    },
-    {
-      "id": "d447",
-      "name": "",
-      "genre": "",
-      "votes": 0
     }
   ],
   "albums": [
@@ -84,13 +66,13 @@
       "id": "1",
       "title": "Eternal Sunshine",
       "artist": "Ariana Grande",
-      "votes": 3019
+      "votes": 3021
     },
     {
       "id": "2",
       "title": "Deeper Well",
       "artist": "Kacey Musgraves",
-      "votes": 1501
+      "votes": 1503
     },
     {
       "id": "3",
@@ -102,7 +84,7 @@
       "id": "4",
       "title": "Everything I Thought I Was",
       "artist": "Justin Timberlake",
-      "votes": 960
+      "votes": 961
     },
     {
       "id": "5",
@@ -132,19 +114,13 @@
       "id": "9",
       "title": "1989 (Taylor's Version)",
       "artist": "Taylor Swift",
-      "votes": 580
+      "votes": 581
     },
     {
       "id": "10",
       "title": "Vultures 1",
       "artist": "¥$, Kanye West & Ty Dolla $ign",
-      "votes": 300
-    },
-    {
-      "id": "ec39",
-      "title": "",
-      "artist": "",
-      "votes": 0
+      "votes": 302
     }
   ]
 }
