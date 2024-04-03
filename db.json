@@ -4,7 +4,7 @@
       "id": "1",
       "name": "Taylor Swift",
       "genre": "Pop",
-      "votes": 1509
+      "votes": 1510
     },
     {
       "id": "2",
@@ -59,60 +59,6 @@
       "name": "Cardi B",
       "genre": "Rap",
       "votes": 50
-    },
-    {
-      "id": "8304",
-      "name": "",
-      "genre": "",
-      "votes": 0
-    },
-    {
-      "id": "acbd",
-      "name": "",
-      "genre": "",
-      "votes": 0
-    },
-    {
-      "id": "660a",
-      "name": "Mariah the Scientist",
-      "genre": "R&B",
-      "votes": 4
-    },
-    {
-      "id": "afb8",
-      "name": "",
-      "genre": "",
-      "votes": 0
-    },
-    {
-      "id": "53c8",
-      "name": "",
-      "genre": "",
-      "votes": 0
-    },
-    {
-      "id": "fe40",
-      "name": "",
-      "genre": "",
-      "votes": 0
-    },
-    {
-      "id": "3883",
-      "name": "",
-      "genre": "",
-      "votes": 0
-    },
-    {
-      "id": "dcc8",
-      "name": "Nikki Little",
-      "genre": "",
-      "votes": 0
-    },
-    {
-      "id": "289f",
-      "name": "Nikki Little",
-      "genre": "R&B",
-      "votes": 0
     }
   ],
   "albums": [
@@ -120,7 +66,7 @@
       "id": "1",
       "title": "Eternal Sunshine",
       "artist": "Ariana Grande",
-      "votes": 3015
+      "votes": 3017
     },
     {
       "id": "2",

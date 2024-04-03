@@ -26,7 +26,7 @@ function App() {
   };
 
   function handleAddAlbums(newAlbum) {
-    setAlbums(prevAlbums => [...albums, newAlbum]);
+    setAlbums(prevAlbums => [...prevAlbums, newAlbum]);
   };
 
   function handleClickArtist(index) {

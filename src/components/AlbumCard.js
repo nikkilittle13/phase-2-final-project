@@ -1,4 +1,5 @@
 import React from "react";
+import "../index.css";
 
 function AlbumCard({ handleClick, albums }) {
   return (
@@ -9,7 +10,7 @@ function AlbumCard({ handleClick, albums }) {
             <h1>{album.title}</h1>
             <h4>Artist: {album.artist}</h4>
             <h3>Votes: {album.votes}</h3>
-            <button onClick={() => handleClick(index)}>Vote Now</button>
+            <button className="button" onClick={() => handleClick(index)}>Vote Now</button>
           </div>
         );
       })}
