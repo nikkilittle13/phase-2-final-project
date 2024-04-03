@@ -23,6 +23,12 @@ function AlbumForm({ onAddAlbum }) {
    .then(newAlbum => onAddAlbum(newAlbum))
   }
 
+  function handleReset() {
+    setTitle("");
+    setArtist("");
+    alert("Successful! Please check the Albums page to see your submission.")
+  }
+
   return (
     <form className="form" onClick={handleSubmit}>
       <label className="label">
@@ -47,7 +53,7 @@ function AlbumForm({ onAddAlbum }) {
           onChange={e => setArtist(e.target.value)}
         />
       </label>
-      <button className="submit-button" type="submit">
+      <button onClick={handleReset} className="submit-button" type="submit">
         Submit
       </button>
     </form>

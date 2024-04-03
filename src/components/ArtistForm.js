@@ -23,6 +23,12 @@ function ArtistForm({ onAddArtist }) {
     .then(newArtist => onAddArtist(newArtist))
   }
 
+  function handleReset() {
+    setName("");
+    setGenre("");
+    alert("Successful! Please check the Artists page to see your submission.")
+  }
+
   return (
     <form className="form" onClick={handleSubmit}>
       <label className="label">
@@ -47,7 +53,7 @@ function ArtistForm({ onAddArtist }) {
           onChange={e => setGenre(e.target.value)}
         />
       </label>
-      <button className="submit-button" type="submit">
+      <button onClick={handleReset} className="submit-button" type="submit">
         Submit
       </button>
     </form>
