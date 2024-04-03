@@ -15,19 +15,27 @@ An online platform for users to vote for their current favorite artists and albu
 
 1. Clone the repository to your local machine:
 
+```javascript
 git clone git@github.com:nikkilittle13/phase-2-final-project.git
+```
 
 2. change to the project directory
 
+```javascript
 cd phase-2-final-project
+```
 
 3. Install project dependencies
 
+```javascript
 npm install
+```
 
 4. Start the development server and open in your browser
 
+```javascript
 npm start
+```
 
 ## Author
 
