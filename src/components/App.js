@@ -1,6 +1,5 @@
 import React, {useState, useEffect }from'react';
-import { BrowserRouter as Router, Route, Switch } from'react-router-dom';
-import NavBar from './NavBar';
+import { Route, Routes } from'react-router-dom';
 import Home from '../pages/Home';
 import Artists from '../pages/Artists';
 import Albums from '../pages/Albums';
@@ -78,39 +77,32 @@ function App() {
 
   return (
     <div>
-        <header>
-          <NavBar />
-        </header>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/artists"
-          render={(props) => (
-            <Artists
-            {...props}
+        <Routes>
+          <Route exact path="/"
+            element={<Home />}
+          />
+          <Route
+            path="/artists"
+            element={<Artists
             artists={artists}
             handleClick={handleClickArtist}
-            />
-          )}
+            />}
           /> 
-          <Route path="/albums"
-          render={(props) => (
-            <Albums
-            {...props}
+          <Route
+            path="/albums"
+            element={<Albums
             albums={albums}
             handleClick={handleClickAlbum}
-            />
-          )}
+            />}
           />
-          <Route path="/submission"
-          render={(props) => (
-            <Submission
-            {...props}
+          <Route
+            path="/submission"
+            element={<Submission
             onAddArtist={handleAddArtist}
             onAddAlbum={handleAddAlbums}
-            />
-          )}
+            />}
           />
-        </Switch>
+        </Routes>
     </div>
   );
 }
