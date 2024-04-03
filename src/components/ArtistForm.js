@@ -21,7 +21,7 @@ function ArtistForm({ onAddArtist }) {
     .then(res => res.json())
     .then(newArtist => onAddArtist(newArtist))
   }
-  
+
   return (
     <form onClick={handleSubmit}>
       <label>
