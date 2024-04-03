@@ -5,3 +5,10 @@
   padding: 10px 15px;
   border: none;
 }
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: rgb(53, 132, 250);
+}

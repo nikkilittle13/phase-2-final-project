@@ -6,11 +6,13 @@ function AlbumCard({ handleClick, albums }) {
     <div>
       {albums.map((album, index) => {
         return (
-          <div key={album.id}>
+          <div className="container" key={album.id}>
+          <div className="card">
             <h1>{album.title}</h1>
             <h4>Artist: {album.artist}</h4>
             <h3>Votes: {album.votes}</h3>
             <button className="button" onClick={() => handleClick(index)}>Vote Now</button>
+          </div>
           </div>
         );
       })}

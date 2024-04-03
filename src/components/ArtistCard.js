@@ -6,11 +6,13 @@ return (
   <div>
     {artists.map((artist, index) => {
       return (
-        <div key={artist.id}>
+        <div className="container" key={artist.id}>
+        <div className="card" >
           <h1>{artist.name}</h1>
           <h4>Genre: {artist.genre}</h4>
           <h3>Votes: {artist.votes}</h3>
           <button className="button" onClick={() => handleClick(index)}>Vote Now</button>
+        </div>
         </div>
       )
     })}
