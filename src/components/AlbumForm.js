@@ -21,16 +21,15 @@ function AlbumForm({ onAddAlbum }) {
     })
    .then(res => res.json())
    .then(newAlbum => onAddAlbum(newAlbum))
+   .then(() => {
+      setTitle("");
+      setArtist("");
+      alert("Successful! Please check the Albums page to see your submission.")})
   }
 
-  function handleReset() {
-    setTitle("");
-    setArtist("");
-    alert("Successful! Please check the Albums page to see your submission.")
-  }
 
   return (
-    <form className="form" onClick={handleSubmit}>
+    <form className="form" onSubmit={handleSubmit}>
       <label className="label">
         Title:
         <input
@@ -53,7 +52,7 @@ function AlbumForm({ onAddAlbum }) {
           onChange={e => setArtist(e.target.value)}
         />
       </label>
-      <button onClick={handleReset} className="submit-button" type="submit">
+      <button className="submit-button" type="submit">
         Submit
       </button>
     </form>

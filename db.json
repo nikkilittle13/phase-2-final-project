@@ -4,19 +4,19 @@
       "id": "1",
       "name": "Taylor Swift",
       "genre": "Pop",
-      "votes": 1511
+      "votes": 1514
     },
     {
       "id": "2",
       "name": "Kacey Musgraves",
       "genre": "Country",
-      "votes": 1254
+      "votes": 1255
     },
     {
       "id": "3",
       "name": "Ariana Grande",
       "genre": "Pop",
-      "votes": 940
+      "votes": 942
     },
     {
       "id": "4",
@@ -28,31 +28,31 @@
       "id": "5",
       "name": "Morgan Wallen",
       "genre": "Country",
-      "votes": 701
+      "votes": 703
     },
     {
       "id": "6",
       "name": "Zach Bryan",
       "genre": "Country",
-      "votes": 571
+      "votes": 573
     },
     {
       "id": "7",
       "name": "SZA",
       "genre": "R&B",
-      "votes": 501
+      "votes": 503
     },
     {
       "id": "8",
       "name": "Drake",
       "genre": "Rap",
-      "votes": 350
+      "votes": 352
     },
     {
       "id": "9",
       "name": "Luke Combs",
       "genre": "Country",
-      "votes": 85
+      "votes": 86
     },
     {
       "id": "10",
@@ -66,13 +66,13 @@
       "id": "1",
       "title": "Eternal Sunshine",
       "artist": "Ariana Grande",
-      "votes": 3021
+      "votes": 3022
     },
     {
       "id": "2",
       "title": "Deeper Well",
       "artist": "Kacey Musgraves",
-      "votes": 1503
+      "votes": 1506
     },
     {
       "id": "3",
@@ -96,25 +96,25 @@
       "id": "6",
       "title": "SOS",
       "artist": "SZA",
-      "votes": 801
+      "votes": 802
     },
     {
       "id": "7",
       "title": "Lover",
       "artist": "Taylor Swift",
-      "votes": 756
+      "votes": 758
     },
     {
       "id": "8",
       "title": "Zach Bryan",
       "artist": "Zach Bryan",
-      "votes": 600
+      "votes": 602
     },
     {
       "id": "9",
       "title": "1989 (Taylor's Version)",
       "artist": "Taylor Swift",
-      "votes": 581
+      "votes": 582
     },
     {
       "id": "10",
